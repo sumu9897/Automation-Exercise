@@ -21,5 +21,9 @@ public class Signup extends DriverSetup{
         WebElement register = browser.findElement(By.xpath("(//button[normalize-space()='Signup'])[1]"));
         register.click();
         Thread.sleep(2000);
+
+        WebElement title = browser.findElement(By.id("id_gender1"));
+        title.click();
+        Thread.sleep(1000);
     }
 }
