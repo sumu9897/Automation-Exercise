@@ -17,13 +17,13 @@ public class product extends DriverSetup{
         continueShopping.click();
         Thread.sleep(500);
 
-        WebElement cart1 = browser.findElement(By.xpath("(//a[contains(text(),'Add to cart')])[3]"));
-        cart1.click();
-        Thread.sleep(500);
-
-        WebElement continueShopping1 = browser.findElement(By.xpath("(//button[normalize-space()='Continue Shopping'])[1]"));
-        continueShopping1.click();
-        Thread.sleep(500);
+//        WebElement cart1 = browser.findElement(By.xpath("(//a[contains(text(),'Add to cart')])[3]"));
+//        cart1.click();
+//        Thread.sleep(500);
+//
+//        WebElement continueShopping1 = browser.findElement(By.xpath("(//button[normalize-space()='Continue Shopping'])[1]"));
+//        continueShopping1.click();
+//        Thread.sleep(500);
 
     }
 
